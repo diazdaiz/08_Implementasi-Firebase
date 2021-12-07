@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AchievementController">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgQEAgAAAACAAAAAAAACAAAAAAAAAAAAUAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AchievementController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_achievementList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AchievementData">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAQAgAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AchievementController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AnalyticsManager">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAgAAAAAEIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AnalyticsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="ResourcesConfigs" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQMBAAlACAAAAAAIAggAQEiAghQgAAAQAAAGAAiAAA=</HashCode>
+      <FileName>Assets\Scripts\GameManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ResourcePrefab" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_tapTextPool" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="LoadingController">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAAAAACAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\LoadingController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResourceController">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIIAAgACAAwAAAAAAoQQAAAAEAAAAAgAAAAEAEAAg=</HashCode>
+      <FileName>Assets\Scripts\ResourceController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_config" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TapArea" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TapArea.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="TapText">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQACAAACAA=</HashCode>
+      <FileName>Assets\Scripts\TapText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserDataManager">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIABAAAAAAAAAACBAAAAAAQAAAAAAAAAAACIAAA=</HashCode>
+      <FileName>Assets\Scripts\UserDataManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Progress" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UserProgressData">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Assets\Scripts\UserProgressData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ResourceConfig">
+    <Position X="9.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAAAAgAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="AchievementType">
+    <Position X="13.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AchievementController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
